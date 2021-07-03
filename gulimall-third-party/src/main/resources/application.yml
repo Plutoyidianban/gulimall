@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    alicloud:
+#      access-key: LTAI5t7tg1qi7geCkFqbrttw
+#      secret-key: ohTYIZw9ewopdFS8EVO7nM0P65uO0n
+#      oss:
+#        endpoint: oss-cn-shanghai.aliyuncs.com
+      access-key: LTAI4G9cHaFbjfpUp4Be5Mku
+      secret-key: wV1NyraBXi2qUiqrfkeDR4Rkm4saap
+      oss:
+        endpoint: oss-cn-guangzhou.aliyuncs.com
+      sms:
+        host: "http://dingxin.market.alicloudapi.com"
+        path: "/dx/sendSms"
+        appcode: "84e56a91e853423d88518a203c52ad8d"
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: gulimall-third-party
+server:
+  port: 30001
